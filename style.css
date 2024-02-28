@@ -1,0 +1,67 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+#container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 50vh;
+  width: 50vh;
+  gap: 16px;
+}
+
+.row {
+  display: flex;
+}
+
+#container,
+.row {
+  gap: 16px;
+}
+
+.row,
+#display,
+button {
+  flex: 1;
+}
+
+#zero {
+  flex: 2.5;
+}
+
+#display,
+button {
+  font-size: 1.5em;
+}
+
+button,
+#display {
+  border: 2px solid;
+  border-radius: 5px;
+}
+
+.number,
+#point {
+  background-color: lavender;
+  border-color: mediumpurple;
+}
+
+.operator,
+#clear,
+#undo {
+  background-color: mistyrose;
+  border-color: lightpink;
+}
+
+#equal {
+  background-color: lightpink;
+  border-color: lightcoral;
+}
+
+#display {
+  border-color: lightslategray;
+}
